@@ -50,3 +50,4 @@ response = client.complete(
 )
 
 print(response.choices[0].message.content)
+print(len(response.choices))

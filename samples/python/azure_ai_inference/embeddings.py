@@ -13,7 +13,7 @@ endpoint = "https://models.inference.ai.azure.com"
 # 
 # Cohere: Cohere-embed-v3-english, Cohere-embed-v3-multilingual
 # Azure OpenAI: text-embedding-3-small, text-embedding-3-large
-model_name = "text-embedding-3-small"
+model_name = "text-embedding-3-large"
 
 client = EmbeddingsClient(
     endpoint=endpoint,

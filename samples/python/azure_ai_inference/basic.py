@@ -3,7 +3,7 @@ It is leveraging your endpoint and key. The call is synchronous."""
 
 import os
 from azure.ai.inference import ChatCompletionsClient
-from azure.ai.inference.models import SystemMessage, UserMessage
+from azure.ai.inference.models import SystemMessage, UserMessage, ToolMessage
 from azure.core.credentials import AzureKeyCredential
 
 token = os.environ["GITHUB_TOKEN"]

@@ -25,3 +25,4 @@ for item in response.data:
         f"..., {item.embedding[length-2]}, {item.embedding[length-1]}]"
     )
 print(response.usage)
+print(response.model_dump())
